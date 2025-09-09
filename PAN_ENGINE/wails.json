@@ -1,0 +1,45 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "PAN_ENGINE",
+  "outputfilename": "PAN_ENGINE",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Aaron Stovall",
+    "email": "iamtheghostinthemirror@pm.me"
+  },
+  "info": {
+    "companyName": "GhostNet",
+    "productName": "PAN_ENGINE",
+    "productVersion": "2.0.0",
+    "copyright": "© 2025 GhostNet",
+    "comments": "Palo Alto Networks API Interface & Report Generator",
+    "icon": [
+      "build/windows/icon.ico"
+    ]
+  },
+  "nsis": {
+    "type": "multiple",
+    "compression": "lzma",
+    "perUserInstall": false,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "uninstallDisplayName": "PAN_ENGINE"
+  },
+  "obfuscated": false,
+  "garbleargs": "",
+  "debounceMS": 300,
+  "disableDragAndDrop": false,
+  "logLevel": "info",
+  "window": {
+    "width": 1200,
+    "height": 800,
+    "minWidth": 800,
+    "minHeight": 600,
+    "startState": "normal",
+    "center": true,
+    "title": "PAN_ENGINE - Palo Alto Networks API Interface"
+  }
+}

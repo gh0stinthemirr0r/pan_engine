@@ -1,0 +1,28 @@
+#include <windows.h>
+
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "app.manifest"
+IDI_ICON1 ICON "icon.ico"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040904b0"
+        {
+            VALUE "CompanyName", "GhostDev"
+            VALUE "FileDescription", "PAN_ENGINE"
+            VALUE "FileVersion", "1.0.0"
+            VALUE "InternalName", "PAN_ENGINE"
+            VALUE "LegalCopyright", "Copyright © 2024"
+            VALUE "OriginalFilename", "PAN_ENGINE.exe"
+            VALUE "ProductName", "PAN_ENGINE"
+            VALUE "ProductVersion", "1.0.0"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x409, 1200
+    }
+} 
